@@ -1,0 +1,63 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+.carousels {
+    margin-bottom: 150px;
+}
+
+.moment {
+    transform: translateX(175px);
+}
+
+.cards {
+    transform: translateX(50px);
+}
+
+.accord {
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+.packages {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+
+    .moment {
+        transform: translate(20px);
+        width: 25%;
+    }
+
+    .cards {
+        transform: translateX(-2px);
+        width: 75%;
+    }
+
+
+}
+
+
+
+/* Tablet Devices */
+
+@media only screen and (min-width:688px) and (max-width: 992px) {
+
+    .moment {
+        transform: translate(70px);
+        width: 50%;
+    }
+
+    .cards {
+        transform: translateX(25px);
+    }
+
+}
